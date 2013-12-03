@@ -1,0 +1,13 @@
+1. A) In the terminal I typed: 
+	python manage.py syncdb
+	python manage.py runserver
+I went to the server: localhost:8000/movies
+
+B)The URL in the browser is: http://localhost:8000/movies/1/
+  The URL in the browser is: http://localhost:8000/movies/2/
+  The 100th URL would be: http://localhost:8000/movies/100
+
+C) The function that would get called is def add_movie
+If you typed http://127.0.0.1:8000/shrek it would return it won't work because there is no reference to it in urls.py
+
+
